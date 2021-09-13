@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Up</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="icon" href="./assets/image/icon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <header class="img-logo">
+        <!-- NAV -->
+        <nav class="box-sha">
+            <a href="#slider" class="logo-left">LOGO</a>
+            <div class="text-center open">
+                <a href="#about"><i class="fa fa-user" ></i>ABOUT</a>
+                <a href="#team"><i class="fa fa-user"></i>TEAM</a>
+                <a href="#work"><i class="fa fa-th"></i>WORK</a>
+                <a href="#pricing"><i class="fa fa-usd"></i>PRICING</a>
+                <a href="#contact"><i class="fa fa-envelope"></i>CONTACT</a>
+            </div>
+
+            <div id="mySlider" class="close">
+                <a href="javascript:void(0)" onclick="slider_close()">Close &times;</a>
+                <a href="#about" onclick="slider_close()">ABOUT</a>
+                <a href="#team" onclick="slider_close()">TEAM</a>
+                <a href="#work" onclick="slider_close()">WORK</a>
+                <a href="#pricing" onclick="slider_close()">PRICING</a>
+                <a href="#contact" onclick="slider_close()">CONTACT</a>
+            </div>
+
+            <a href="javascript:void(0)" onclick="slider_open()"><i class="fa fa-bars"></i></a>
+        </nav>
+
+        <!-- SLIDER -->
+        <div id="slider">
+            <div id="content-slider">
+                <span>Start something that matters</span><br>
+                <span>Stop wasting valuable time with projects that just isn't you.</span>
+                <p><a href="#about">Learn more and start today</a></p>
+            </div>
+
+            <div id="socials-slider">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+        </div>
+    </header>
+
+    <div id="main">
+        <!-- ABOUT -->
+        <section id="about" class="text-center">
+            <div class="heading-content">
+                <h3>ABOUT THE COMPANY</h3>
+                <p>Key features of our company</p>
+            </div>
+            <div class="body-content">
+                <div class="col col-four">
+                    <div class="col-full">
+                        <i class="fa fa-desktop"></i>
+                        <p>Responsive</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="col col-four">
+                    <div class="col-full">
+                        <i class="fa fa-heart"></i>
+                        <p>Passion</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="col col-four">
+                    <div class="col-full">
+                        <i class="fa fa-diamond"></i>
+                        <p>Design</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+                <div class="col col-four">
+                    <div class="col-full">
+                        <i class="fa fa-cog"></i>
+                        <p>Support</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WE KNOW DESIGN -->
+        <section id="know-design">
+            <div class="heading-content">
+                <div class="col col-two">
+                    <div class="col-full">
+                        <h3>We know design.</h3>
+                        <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+                        <p><a class="button-design" href="#work"><i class="fa fa-th">&nbsp;</i> View Our Works</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-two">
+                <div class="col-full">
+                    <img style="border-radius: 8px;" src="./assets/image/design.jpg" alt="We know design">
+                </div>
+            </div>
+        </section>
+
+        <!-- TEAM -->
+        <section id="team">
+            <div class="heading-content text-center">
+                <h3>THE TEAM</h3>
+                <p>The ones who runs this company</p>
+            </div>
+
+            <div class="body-content">
+                <div class="col col-four">
+                    <div class="col-full box-sha">
+                        <img src="./assets/image/team1.jpg" alt="Member 1" class="col-full">
+                        <div class="item-team">
+                            <h3>John Doe</h3>
+                            <p>CEO & Founder</p>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                            <p><button><i class="fa fa-envelope"></i>Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-four">
+                    <div class="col-full box-sha">
+                        <img src="./assets/image/team2.jpg" alt="Member 2" class="col-full">
+                        <div class="item-team">
+                            <h3>Anja Doe</h3>
+                            <p>Art Director</p>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                            <p><button><i class="fa fa-envelope"></i>Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-four">
+                    <div class="col-full box-sha">
+                        <img src="./assets/image/team3.jpg" alt="Member 3" class="col-full">
+                        <div class="item-team">
+                            <h3>Mike Ross</h3>
+                            <p>Web Designer</p>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                            <p><button><i class="fa fa-envelope"></i>Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-four">
+                    <div class="col-full box-sha">
+                        <img src="./assets/image/team4.jpg" alt="Member 4" class="col-full">
+                        <div class="item-team">
+                            <h3>Dan Star</h3>
+                            <p>Designer</p>
+                            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                            <p><button><i class="fa fa-envelope"></i>Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROMO -->
+        <section id="promo" class="text-center">
+            <div class="col col-four">
+                <div class="col-full">
+                    <span>14+</span>
+                    <br>Partners
+                </div>
+            </div>
+
+            <div class="col col-four">
+                <div class="col-full">
+                    <span>55+</span>
+                    <br>Projects Done
+                </div>
+            </div>
+
+            <div class="col col-four">
+                <div class="col-full">
+                    <span>89+</span>
+                    <br>Happy Clients
+                </div>
+            </div>
+
+            <div class="col col-four">
+                <div class="col-full">
+                    <span>150+</span>
+                    <br>Mettings
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section id="work">
+            <div class="heading-content text-center">
+                <h3>OUR WORK</h3>
+                <p>What we've done for people</p>
+            </div>
+
+            <div class="body-content">
+                <div class="row">
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work1.jpg" alt="Wrok 1">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work2.jpg" alt="Wrok 2">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work3.jpg" alt="Wrok 3">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work4.jpg" alt="Wrok 4">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work5.jpg" alt="Wrok 5">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work6.jpg" alt="Wrok 6">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work7.jpg" alt="Wrok 7">
+                    </div>
+
+                    <div class="col col-four">
+                        <img class="col-full" src="./assets/image/work8.jpg" alt="Wrok 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OUR SKILL -->
+        <section id="kill">
+            <div class="col col-two">
+                <div class="col-full">
+                    <div class="heading-content">
+                        <h3>Our Skills.</h3>
+                        <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore.</p>
+                        <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-two">
+                <div class="col-full">
+                    <div class="item-kill">
+                        <p><i class="fa fa-camera"></i>Photography</p>
+                        <div>
+                            <div class="gray-kill" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+
+                    <div class="item-kill">
+                        <p><i class="fa fa-desktop"></i>Web Design</p>
+                        <div>
+                            <div class="gray-kill" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+
+                    <div class="item-kill">
+                        <p><i class="fa fa-photo"></i>Photoshop</p>
+                        <div>
+                            <div class="gray-kill" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING -->
+        <section id="pricing" class="text-center">
+            <div class="heading-content text-white">
+                <h3>PRICING</h3>
+                <p>Choose a pricing plan that fits your needs.</p>
+            </div>
+
+            <div class="body-content">
+                <div class="col col-third mt-16">
+                    <div class="col-full">
+                        <ul>
+                            <li class="text-white bg-black"><h2>Basic</h2></li>
+                            <li><b>10GB</b> Storage</li>
+                            <li><b>10</b> Emails</li>
+                            <li><b>10</b> Domains</li>
+                            <li><b>Endless</b> Support</li>
+                            <li>
+                                <h2>&dollar;10</h2>
+                                <span>per month</span>
+                            </li>
+                            <li>
+                                <button>Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col col-third">
+                    <div class="col-full">
+                        <ul>
+                            <li class="text-white special-pricing" ><h2>Pro</h2></li>
+                            <li><b>25GB</b> Storage</li>
+                            <li><b>25</b> Emails</li>
+                            <li><b>25</b> Domains</li>
+                            <li><b>Endless</b> Support</li>
+                            <li>
+                                <h2>&dollar;25</h2>
+                                <span>per month</span>
+                            </li>
+                            <li>
+                                <button>Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col col-third  mt-16">
+                    <div class="col-full">
+                        <ul>
+                            <li class="text-white bg-black"><h2>Premium</h2></li>
+                            <li><b>50GB</b> Storage</li>
+                            <li><b>50</b> Emails</li>
+                            <li><b>50</b> Domains</li>
+                            <li><b>Endless</b> Support</li>
+                            <li>
+                                <h2>&dollar;50</h2>
+                                <span>per month</span>
+                            </li>
+                            <li>
+                                <button>Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT-->
+        <section id="contact">
+            <div class="heading-content text-center">
+                <h3>CONTACT</h3>
+                <p>Lets get in touch. Send us a message:</p>
+            </div>
+
+            <div class="body-content">
+                <p><i class="fa fa-map-marker"></i>Chicago, US</p>
+                <p><i class="fa fa-phone"></i>Phone: +00 151515</p>
+                <p style="margin-bottom: 64px;"><i class="fa fa-envelope"></i>Email: mail@mail.com</p>
+
+                <form action="">
+                    <input class="col-full" type="text" placeholder="Name" required name="Name">
+                    <input class="col-full" type="email" placeholder="Email" required name="Email">
+                    <input class="col-full" type="text" placeholder="Subject" required name="Subject">
+                    <input class="col-full" type="text" placeholder="Message" required name="Message">
+                    <button><i class="fa fa-paper-plane"></i>Send Message</button>
+                </form>
+
+                <img src="./assets/image/contact.jpg" alt="Contact">
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center">
+        <button><a href="#slider"><i class="fa fa-arrow-up"></i>To the top</a></button>
+        <div>
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Powered by <a class="text-white" href="https://www.w3schools.com/w3css/default.asp" target="_bank">w3.css</a></p>
+    </footer>
+
+
+    <!-- SCRIPT -->
+    <script>
+        function slider_open() {
+            document.getElementById('mySlider').style.display = "block";
+        }
+
+        function slider_close() {
+            document.getElementById('mySlider').style.display = "none";
+        }
+    </script>
+
+
+</body>
+</html>
