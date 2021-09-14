@@ -1,0 +1,73 @@
+
+/* Màn hình rất nhỏ*/
+@media screen and (max-width: 600px) {
+  header nav .open {
+        display: none;
+    }
+
+    nav .close {
+        display: none;
+        background-color: #000;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 5;
+    }
+
+    nav .close a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 16px;
+    }
+
+    header nav a:last-child:hover {
+        background-color: #ccc;
+    }
+
+    #slider #content-slider span:first-child {
+        font-size: 36px !important;
+    }
+
+    #about .body-content .col,
+    #know-design .col,
+    #team .body-content .col,
+    #promo .col,
+    #work .body-content .col,
+    #kill .col,
+    #pricing .col {
+        width: 100%;
+    }
+
+    
+}
+
+/* Màn hình nhỏ*/
+@media screen and (min-width: 600px) {
+    header nav a:last-child {
+        display: none;
+    }
+    
+
+    #team .body-content .col,
+    #work .body-content .col {
+        width: 50%;
+    }
+}
+
+/* Màn hình trung bình*/
+@media screen and (min-width: 768px) {
+   
+}
+
+/* Màn hình lớn*/
+@media screen and (min-width: 992px) {
+    
+}
+
+/* Màn hình rất lớn*/
+@media screen and (min-width: 1200px) {
+    
+}
