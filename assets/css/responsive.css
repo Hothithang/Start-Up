@@ -45,7 +45,7 @@
 }
 
 /* Màn hình nhỏ*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) and (max-width: 992px){
     header nav a:last-child {
         display: none;
     }
@@ -59,7 +59,9 @@
 
 /* Màn hình trung bình*/
 @media screen and (min-width: 768px) {
-   
+   header nav a:last-child {
+        display: none;
+    }
 }
 
 /* Màn hình lớn*/
